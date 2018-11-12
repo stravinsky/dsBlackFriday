@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/bones/jquery.fullPage.css">
 	<link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bones/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/sli.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<title>BlackFriday</title>
 </head>
@@ -15,7 +16,7 @@
 
 <header>
 
-		
+
 		<div class="main__nav">
 			<a href="#sale"><img src="img/header_logo.png" alt=""></a>
 			<ul>
@@ -28,7 +29,7 @@
 		</div>
 <div class="superSpyHamburger">
       <div class="overlay">
-        <nav class="overlayMenu">  
+        <nav class="overlayMenu">
            <ul role="menu">
                 <li><a href="#sale"><img src="img/header_logo.png" alt=""></a></li>
                 <li><a href="#discount" role="menuitem">Распродажа</a></li>
@@ -40,13 +41,13 @@
         </nav>
     </div>
 
-    <div class="navBurger" role="navigation" id="navToggle"></div> 
+    <div class="navBurger" role="navigation" id="navToggle"></div>
     </div>
 
     <div class="main__nav-adaptive">
         <a href="#sale"><img src="img/header_logo.png" alt=""></a>
     </div>
-	
+
 </header>
 
 <!-- первый блок -->
@@ -55,7 +56,7 @@
     <section class="section" data-anchor="sale">
       <div class="container">
         <div class="row">
-          
+
           <div class="main__sale">
 
             <div class="salef">
@@ -93,22 +94,22 @@
               </div>
             </div>
 
-          
+
           </div>
             <div class="timeline">
               <div class="time">
                 <span id="t" class="timers"></span><span id="tt" class="timer"></span>
               </div>
-             
+
             </div>
-            
+
             <div class="arrow">
                 <div class="main__arrow">
                     <a href="#discount"><img src="./img/sale__arrow-img.png" alt=""></a>
                 </div>
 
             </div>
-          
+
 
 
           <div class="middle__sale">
@@ -142,7 +143,7 @@
             </div>
             <div class="button">
               <a href="#subscribe""><button class="button"><strong>Подробнее</strong></button></a>
-            </div>            
+            </div>
           </div>
 
 
@@ -153,18 +154,66 @@
 
 
 <!-- второй блок -->
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section class="section" data-anchor="discount">
+			<div class="slider-container">
+
+				<input id="slider-container__second-item" class="slider-container__second-item" type="checkbox">
+				<label class="slider-container__item-lbl slider-container__second-item-lbl" for="slider-container__second-item">
+					<span>50% _второй</span>
+					<img src="img/prizes-img0.png" alt="">
+				</label>
+
+				<input id="slider-container__fourty-item" class="slider-container__fourty-item" type="checkbox">
+				<label class="slider-container__item-lbl slider-container__fourty-item-lbl" for="slider-container__fourty-item">
+					<span>90% _четвертый</span>
+					<img src="img/secondBox_img.png" alt="">
+				</label>
+
+				<input id="slider-container__third-item" class="slider-container__third-item" type="checkbox">
+				<label class="slider-container__item-lbl slider-container__third-item-lbl" for="slider-container__third-item">
+					<span>90% _третий</span>
+					<img src="img/secondBox_img.png" alt="">
+				</label>
+
+
+
+
+
+				<input checked id="slider-container__first-item" class="slider-container__first-item" type="checkbox">
+				<label class="slider-container__item-lbl slider-container__first-item-lbl" for="slider-container__first-item">
+					<span>40% _первый</span>
+					<img src="img/secondBox_img.png" alt="">
+				</label>
+
+			</div>
+
+
+			<!--
       <div class="container">
 
 
         <div class="main__diskount">
 
          <!--  Распродажа десктоп -->
-
+-->
+<!--
          <div class="psychoWheels">
-           <img src="./img/discountMain_img.png" alt=""> 
+           <img src="./img/discountMain_img.png" alt="">
          </div>
+
 
           <div class="disounts__boxes">
 
@@ -174,18 +223,18 @@
 
               <p><strong>коляски <br>
               и автокресла</strong></p>
-          
+
               <div class="timerdh">
                 <span>
                 Старт через <br>
                  <span id="ttt">
-              </span> 
+              </span>
               </div>
-              
-                      
+
+
             </div>
 
-           
+
 
             <div class="second-box">
               <h1>50%</h1>
@@ -194,12 +243,12 @@
               </div>
             </div>
 
-           
+
 
           </div>
+-->
 
-
-
+<!--
           <div class="under__boxes">
 
             <div class="underf">
@@ -211,12 +260,13 @@
             <div class="unders">
               <div class="unders__button">
                 <a href="#subscribe""><button class="unders__button">Как получить</button></a>
-              </div> 
+              </div>
             </div>
           </div>
+				-->
         </div>
-        
-             
+
+
                <!--  Распродажа планшет -->
         <div class="middle__diskount">
 
@@ -234,10 +284,10 @@
                 <span>
                 Старт через <br>
                  <span id="tttt">
-              </span> 
+              </span>
               </div>
             </div>
-           
+
 
             <div class="middle__second-box">
               <h1>50%</h1>
@@ -246,12 +296,12 @@
               </div>
             </div>
 
-           
+
 
           </div>
 
           <div class="middle__psychoWheels">
-           <img src="./img/discountMain_img.png" alt=""> 
+           <img src="./img/discountMain_img.png" alt="">
           </div>
 
            <div class="middle__under-boxes">
@@ -265,25 +315,25 @@
             <div class="middle__unders">
               <div class="unders__button">
                 <a href="#subscribe""><button class="unders__button"><strong>Как получить</strong></button></a>
-              </div> 
+              </div>
             </div>
           </div>
-          
+
         </div>
-      
+
       </div>
     </section>
 
 
 <!-- третий блок -->
- 
+
     <section class="section dark-bg" data-anchor="prize">
       <div class="full__main__prizes">
         <div class="container">
           <!-- Призы десктоп -->
-          
+
             <div class="main__prize">
-            
+
 
               <div class="prizef">
 
@@ -298,7 +348,7 @@
                 </div>
                 <div class="prisef-text">
                   <p>
-                    В нашем отеле все сделано для того, чтобы Ваш отдых был комфортным, незабываемым и превратился в сказку. 
+                    В нашем отеле все сделано для того, чтобы Ваш отдых был комфортным, незабываемым и превратился в сказку.
                   </p>
                 </div>
                 <div class="prize__button">
@@ -312,14 +362,14 @@
                   <img src="img/prizes__new.png" alt="">
                 </div>
               </div>
-             </div> 
-            
+             </div>
 
 
-          
-          
+
+
+
         </div>
-        
+
         <div class="howtoprize dark-bg ">
 
           <div class="container">
@@ -338,7 +388,7 @@
                   Осуществите покупку <br>
                   от 2 000 рублей с 20 по 25 <br> ноября
                 </div>
-                
+
               </div>
 
               <div class="howtoprizess">
@@ -347,7 +397,7 @@
                 </div>
                 <div class="htp__text">
                   Зарегистрируйтесь <br>
-                  на сайте: <br> <a href="http://dochkisinochki-black-friday.ru">http://dochkisinochki-black-friday.ru</a>  
+                  на сайте: <br> <a href="http://dochkisinochki-black-friday.ru">http://dochkisinochki-black-friday.ru</a>
                 </div>
               </div>
 
@@ -368,7 +418,7 @@
             </div>
 
           </div>
-            
+
 
 
         </div>
@@ -390,7 +440,7 @@
 
         <div class="middle__prisef-text">
           <p>
-            В нашем отеле все сделано для того, чтобы Ваш отдых  был комфортным, незабываемым и превратился в сказку. 
+            В нашем отеле все сделано для того, чтобы Ваш отдых  был комфортным, незабываемым и превратился в сказку.
           </p>
         </div>
         <div class="middle__prize-img">
@@ -402,7 +452,7 @@
         </div>
 
       </div>
-      
+
     </section>
 
 
@@ -413,9 +463,9 @@
       <div class="container">
 
         <div class="main__subscribe">
-          
 
-          
+
+
           <div class="subscribef">
             <img src="./img/subf-img.png" alt="">
           </div>
@@ -454,7 +504,7 @@
                 Скидка будет действовать с 20 по 25 ноября
               </span>
             </div>
-            
+
           </div>
 
           <div class="subscribet">
@@ -474,7 +524,7 @@
           <div class="partners_text">
             <p class="partners__text">Наши партнеры</p>
           </div>
-                    
+
           <div class="mv">
             <div class="mv_i">
               <img src="./img/mv.png" alt="">
@@ -482,7 +532,7 @@
             <div class="mv_u">
               <img src="./img/mv.png" alt="">
             </div>
-            
+
           </div>
 
         </div>
@@ -497,6 +547,6 @@
 <script src="js/bones/jquery.easings.min.js"></script>
 <script src="js/bones/scrolloverflow.min.js"></script>
 <script src="js/bones/jquery.fullPage.min.js"></script>
-<script src="js/script.js"></script>	
+<script src="js/script.js"></script>
 </body>
 </html>
